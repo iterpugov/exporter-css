@@ -6,7 +6,7 @@
     "organization": "Supernova",
     "homepage": "https://supernova.io",
     "source_dir": "src",
-    "version": "1.0.1",
+    "version": "1.0.131",
     "config": {
         "sources": "sources.json",
         "output": "output.json",
@@ -20,5 +20,23 @@
         "CSS",
         "Tokens",
         "Styles"
-    ]
+    ],
+    "contributes": {
+        "configuration": [{
+            "default": true,
+            "key": "generateColors",
+            "label": "Generate color list page",
+            "type": "boolean"
+        }, {
+            "default": "",
+            "key": "comment",
+            "label": "Exporter dummy comment",
+            "type": "string"
+        }, {
+            "default": 41,
+            "key": "answerToEverything",
+            "label": "Answer to all questions in the universe, minus 1",
+            "type": "number"
+        }]
+    }
 }
