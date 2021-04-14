@@ -1,4 +1,6 @@
+{[ if @configuration().generateColors ]}
 @import url(colors.css);
+{[/]}
 @import url(measures.css);
 @import url(borders.css);
 @import url(gradients.css);
